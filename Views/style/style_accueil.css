@@ -1,0 +1,218 @@
+
+
+body{
+background:black;
+color:white;
+width:960px;
+margin:auto;
+text-align:center;
+}
+
+#banniere_top{
+width:960px;
+height:150px;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+position:relative;
+clear:both;
+
+}
+
+#recherche{
+width:150px;
+height:50px;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+float:left;
+bottom:0;
+position:absolute;
+bottom:0;
+left:0;}
+
+#Connexion{
+height:50px;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+float:right;
+position:absolute;
+right:0;
+bottom:0;
+line-height:46px;
+overflow:
+}
+
+#conteneur{
+position:absolute;
+z-index:10;
+}
+
+#menu_gauche{
+width:196px;
+height:300px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+}
+
+.menu{
+padding-top:10px;
+display:block;
+font-weight:bold;
+}
+
+.menu:hover{
+text-decoration:underline;
+color:yellow;
+}
+#player{
+width:756px;
+height:100px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+}
+
+#player_mp3{
+width:740px;
+height:80px;
+}
+
+#classement{
+width:756px;
+height:400px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+}
+
+#top_albums{
+width:248px;
+height:400px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+}
+
+#top_titres{
+width:248px;
+height:400px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+margin-left:1px;
+}
+
+#top_artistes{
+width:246px;
+height:400px;
+float:left;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+margin-left:1px;
+}
+
+#footer{
+width:960px;
+clear:both;
+border-width:2px;
+border-color:red;
+border-style:solid;
+border-radius: 8px;
+}
+
+/* TEST POUR LE SLIDE JQUERY */
+#Conteneur_Formulaire_Connexion
+{
+float:right;
+margin-top:150px;
+}
+#Formulaire_Connexion
+{
+	height:277px;
+	width:640px;
+	display:none;
+	position:relative;
+}
+#Formulaire_Connexion fieldset
+{
+	width:310px;
+	display:block;
+	padding:0;
+	float:left;
+}      
+
+.fieldset1{
+	background:blue;
+}
+
+.fieldset2{
+	background:red;
+}
+
+#Formulaire_Connexion label
+{
+	display:block;
+	color:#ffc400;
+}      
+#Formulaire_Connexion input[type=text]
+{
+	display:block;
+	border:solid 1px #4d3a24;
+	width:100%;
+	margin-bottom:10px;
+	height:24px;
+}  
+#Formulaire_Connexion textarea
+{
+	display:block;
+	border:solid 1px #4d3a24;
+	width:100%;
+	margin-bottom:10px;
+}  
+#Formulaire_Connexion input[type=submit]
+{
+	background-color:#4d3a24;
+	border:solid 1px #23150c;
+	color:#fecd28;
+}                
+#Connexion
+{
+	height:40px;
+	width:640px;
+	display:block;
+}
+
+.Connexion{
+	cursor:pointer;
+}
+
+#message_connexion
+{
+	color:#ff9933;
+	display:none;
+}
+
+#message_inscription
+{
+	color:#ff9933;
+	display:none;
+}
+/* FIN TEST */
