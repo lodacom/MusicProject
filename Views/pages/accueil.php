@@ -56,12 +56,56 @@
 	<div id="classement">
 		<div id="top_albums">
 		TOP ALBUMS
+		<p>
+		<?php
+		include ('../../Models/top_album.php');
+		$top_album=new Top_Album();
+		$top_album->top_album();
+		echo "<table>";
+		for ($i=0;$i<count($top_album->tableau_top_album);$i++)
+		{
+			echo "<tr>
+				<td>".$top_album->tableau_top_album[$i]."</td>
+			</tr>";
+		}
+		echo "</table>";
+		?>
+		</p>
 		</div>
 		<div id="top_artistes">
-		TOP ARTISTES 
+		TOP ARTISTES
+		<p>
+		<?php
+		include ('../../Models/top_artiste.php');
+		$top_artiste=new Top_Artiste();
+		$top_artiste->top_artiste();
+		echo "<table>";
+		for ($i=0;$i<count($top_artiste->tableau_top_artiste);$i++)
+		{
+			echo "<tr>
+				<td>".$top_artiste->tableau_top_artiste[$i]."</td>
+			</tr>";
+		}
+		echo "</table>";
+		?>
 		</div>
 		<div id="top_titres">
 		TOP TITRES
+		<p>
+		<?php
+		include ('../../Models/top_musique.php');
+		$top_musique=new Top_Musique();
+		$top_musique->top_musique();
+		echo "<table>";
+		for ($i=0;$i<count($top_musique->tableau_top_musique);$i++)
+		{
+			echo "<tr>
+				<td>".$top_musique->tableau_top_musique[$i]."</td>
+			</tr>";
+		}
+		echo "</table>";
+		?>
+		</p>
 		</div>
 	</div>
 	<?php include_once "../include/footer.php" ?>
