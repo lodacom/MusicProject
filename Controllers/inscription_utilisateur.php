@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include_once "../Models/connexion_base.php";
 class Inscription_Utilisateur
 {

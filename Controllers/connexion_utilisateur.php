@@ -13,12 +13,6 @@ function __construct()
 	$this->connexion=new Connexion_Base();
 }
 
-function __destruct()
-{
-	session_unset();
-	session_destroy();
-}
-
 function verification_connexion()
 {
 	$requete="SELECT pseudo,mot_passe 
@@ -39,6 +33,7 @@ function verification_connexion()
 		else
 		{
 			$_SESSION['pseudo']=$this->pseudo;
+			echo ("Bravo vous etes connecte\n");
 		}
 		
 	}
