@@ -25,6 +25,17 @@ class Coup_Coeur_Musique extends Interface_Util
 			$resultat=mysql_query($requete,parent::connexion->link);
 			
 			parent::interface_commune($resultat);
+			
+			for ($i=0;$i<count(parent::tab_num_musique);$i++)
+			{
+			echo "<tr>
+				<td>"./*parent::tab_num_musique[$i]*/."</td>
+				<td>".parent::tab_titre[$i]."</td>
+				<td>".parent::tab_album[$i]."</td>
+				<td>".parent::tab_duree[$i]."</td>
+				<td>".parent::tab_groupe."</td>
+			</tr>";
+			}
 		}
 		else
 		{
