@@ -21,7 +21,8 @@ clear:both;
 }
 
 #recherche{
-width:150px;
+width: 312px;
+text-align: left;
 height:50px;
 border-width:2px;
 border-color:red;
