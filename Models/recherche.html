@@ -1,0 +1,15 @@
+﻿<script type="text/javascript" src="../../Models/completion.js"></script>
+<script type="text/javascript">
+window.onload = function()
+{
+	initAutoComplete(document.getElementById('form-test'),
+	document.getElementById('champ-texte'),document.getElementById('bouton-submit'))
+};
+</script>
+<div id="recherche">
+	<form method="post" name="form-test" id="form-test" action="javascript:" style="margin-left: 50px; margin-top:20px">
+		<label></label>
+		<input type="text" name="champ-texte" id="champ-texte" size="20" autocomplete="off" />
+		<input type="submit" id="bouton-submit" value="Recherchez">
+	</form>
+</div>
